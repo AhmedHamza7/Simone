@@ -1,0 +1,119 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 95%;
+    }
+    .feedback-item{
+        width: 49%;
+    }
+    .form-row-1{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .sections-title h2{
+        font-size: 100px;  
+        margin: 30px;  
+    }
+    .about, .services {
+        padding: 0px;
+    }
+    .about-content-left,.about-content-right,
+    .about-content-bottom,
+     .feedback-item,.contact-adress,.contact-note,
+     .footer-left,.footer-right {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .summary-content-right,
+    .summary-content-left,.myskills-column-1,
+     .myskills-column-2,.services-item {
+         width:48%;
+     }
+     .services-text {    
+        padding: 20px;    
+    }
+
+     .contact-adress,.contact-note{
+         width: 49%;
+         text-align: left;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    .sections-title h2{
+        font-size: 80px;  
+        margin: 30px;  
+    }
+
+    .form-row-1 {
+        flex-wrap: wrap;
+    }
+    .about-counter {
+        width: 50%;
+        border:none;
+        padding: 10px;
+    }
+    .about-content-left,.about-content-right,
+    .about-content-bottom,.services-item,.summary-content-right,
+    .summary-content-left,.myskills-column-1,
+     .myskills-column-2,
+     .feedback-item,.contact-adress,.contact-note,
+     .footer-left,.footer-right{
+        width: 100%;
+    }
+    
+    .portofolio-row {
+        width:50%;
+        align-content: center;
+    }
+    .contact-adress,.contact-note{
+        text-align: center;
+    }
+    .nav-content {
+        flex-wrap: wrap;
+        padding-inline: 0px;
+        }
+        .nav-img{
+            padding: 10px;
+            width: 100%;
+        }
+    
+        .nav-list {
+            width: 100%;
+        }
+        .nav-list ul li{
+            width:20%;
+        padding-right: 15px;
+        }
+        .nav-list ul {
+            flex-wrap: wrap;
+        }
+
+}
+
+@media screen and (max-width: 600px) {
+    body{overflow-x: hidden;}
+    .sections-title h2{
+        font-size: 70px;  
+        margin: 30px;  
+    }
+    .contact {
+        padding: 0 0 40px 0;
+    }
+    .portofolio-row{
+        width: 100%;
+    }
+    .nav-list ul li{
+        width:25%;
+    padding-left: 15px;
+    }
+  
+}
+
+
